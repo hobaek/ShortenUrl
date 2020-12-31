@@ -1,0 +1,49 @@
+{
+	"name": "ShortenUrl",
+	"version": "1.0.0",
+	"description": "",
+	"main": "webpack.config.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack",
+		"dev": "NODE_ENV=development nodemon server/server.js & NODE_ENV=development webpack-dev-server --open"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hobaek/ShortenUrl.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hobaek/ShortenUrl/issues"
+	},
+	"homepage": "https://github.com/hobaek/ShortenUrl#readme",
+	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"@babel/plugin-transform-runtime": "^7.12.10",
+		"@babel/preset-env": "^7.12.11",
+		"@babel/preset-react": "^7.12.10",
+		"@hot-loader/react-dom": "^17.0.1",
+		"babel-loader": "^8.1.0",
+		"css-loader": "^5.0.1",
+		"eslint": "^7.16.0",
+		"eslint-plugin-react": "^7.21.5",
+		"html-webpack-plugin": "^4.5.0",
+		"style-loader": "^2.0.0",
+		"webpack": "^5.11.1",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.11.0"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.11.9",
+		"nodemon": "^2.0.6",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-hot-loader": "^4.13.0"
+	}
+}
